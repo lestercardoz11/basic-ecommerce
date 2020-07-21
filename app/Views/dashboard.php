@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1><?= session()->get('name') ?></h1>
+            <h3 class='text-center'>Welcome, <?= session()->get('name') ?>!</h3>
         </div>
     </div>
 </div>
