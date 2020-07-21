@@ -26,3 +26,47 @@ body{
         margin: 0 auto;
     }
 }
+
+.card{
+    text-decoration: none;
+    color: #2c2e41;
+    max-width: 300px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(44, 46, 65, 0.15);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.card header{
+    padding-bottom: 90%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+.card .content {
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 30px 30px;
+    margin-top: -20px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.card .content > * {
+    margin-bottom: 20px;
+}
+.card .content > *:last-child {
+    margin-bottom: 0;
+}
+.card .content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
