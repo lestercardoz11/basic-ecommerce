@@ -2,7 +2,7 @@
 
 The project was created using PHP, CodeIgniter 4 Framework.
 
-It shows the working of authentication, and displays the products in a card layout.
+It shows the working of authentication of users, and displays the products in a card layout.
 
 ### What is CodeIgniter?
 
