@@ -1,17 +1,8 @@
-# A Basic E-Commerce Web Application
+# Basic E-Commerce Web Application
 
-The project was created using PHP, CodeIgniter 4 Framework. 
+The project was created using PHP, CodeIgniter 4 Framework.
+
 It shows the working of authentication, and displays the products in a card layout.
-
-
-
-
-
-
-
-
-
-
 
 ### What is CodeIgniter?
 
