@@ -4,6 +4,9 @@ The project was created using PHP, CodeIgniter 4 Framework.
 
 It shows the working of authentication of users, and displays the products in a card layout.
 
+### Database SQL Script:
+CREATE TABLE users ( user_id INTEGER NOT NULL AUTO_INCREMENT, name VARCHAR(128) NOT NULL , email VARCHAR(128) NOT NULL , password VARCHAR(128) NOT NULL , created_at DATETIME NOT NULL  DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (`user_id`)) ENGINE = InnoDB;
+
 ### What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
