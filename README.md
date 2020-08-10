@@ -1,6 +1,13 @@
-# CodeIgniter 4 Framework
+# Basic E-Commerce Web Application
 
-## What is CodeIgniter?
+The project was created using PHP, CodeIgniter 4 Framework.
+
+It shows the working of authentication of users, and displays the products in a card layout.
+
+### Database SQL Script:
+CREATE TABLE users ( user_id INTEGER NOT NULL AUTO_INCREMENT, name VARCHAR(128) NOT NULL , email VARCHAR(128) NOT NULL , password VARCHAR(128) NOT NULL , created_at DATETIME NOT NULL  DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (`user_id`)) ENGINE = InnoDB;
+
+### What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
 More information can be found at the [official site](http://codeigniter.com).
@@ -15,7 +22,7 @@ The user guide corresponding to this version of the framework can be found
 [here](https://codeigniter4.github.io/userguide/). 
 
 
-## Important Change with index.php
+### Important Change with index.php
 
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
 for better security and separation of components.
@@ -27,7 +34,7 @@ framework are exposed.
 **Please** read the user guide for a better explanation of how CI4 works!
 The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
 
-## Repository Management
+### Repository Management
 
 We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
 We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
@@ -36,7 +43,7 @@ FEATURE REQUESTS.
 This repository is a "distribution" one, built by our release preparation script. 
 Problems with it can be raised on our forum, or as issues in the main repository.
 
-## Contributing
+### Contributing
 
 We welcome contributions from the community.
 
